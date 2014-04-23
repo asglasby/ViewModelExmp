@@ -1,0 +1,15 @@
+﻿@model CoderCampsExample.Models.CampIndexVM
+
+@Model.Title
+
+@foreach (var location in Model.Locations)
+{
+    @location.Address <br/>
+    @location.Picture
+}
+@foreach (var Troop in Model.Troops)
+{
+    <h2>@Troop.Id</h2>
+    <h3>Start Date</h3> @Troop.StartDate.ToShortTimeString()
+   @Html.Raw("Start Date") @Troop.StartDate.ToShortTimeString()
+}
