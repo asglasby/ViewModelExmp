@@ -169,6 +169,8 @@
     <Compile Include="Models\CampIndexVM.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Location.cs" />
+    <Compile Include="Models\Point.cs" />
+    <Compile Include="Models\Rectangle.cs" />
     <Compile Include="Models\Troop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

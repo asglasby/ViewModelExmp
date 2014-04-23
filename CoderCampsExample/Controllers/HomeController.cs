@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using CoderCampsExample.Models;
 
 namespace CoderCampsExample.Controllers
 {
@@ -10,6 +11,17 @@ namespace CoderCampsExample.Controllers
     {
         public ActionResult Index()
         {
+            Point a;
+            a.X = 0;
+            a.Y = 3;
+            Point b = new Point(3,5);
+            Rectangle myRectangle = new Rectangle(a, b);
+            int area = myRectangle.Area();
+
+            Days day = Days.Sun;
+            int dayNum = (int)Days.Sun;
+            day++;
+
             return View();
         }
 

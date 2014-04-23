@@ -23,8 +23,8 @@ namespace CoderCampsExample.Controllers
             };
             model.Locations = new List<Location>()
             {
-                new Location(){Id=1, Address="1234", ClassRoom="2", Picture="First Location Pic URL"},
-                new Location(){Id=2, Address="3456", ClassRoom="4", Picture="Second Location Pic URL"}
+                new Location(){Id=1, Address="1234", ClassRoom="2", Picture="http://4.bp.blogspot.com/-aveBBBgPDI4/U0_66V4rA8I/AAAAAAAAAX8/YPv-yuPZoNk/s1600/javascript_logo_unofficial-300x300.png"},
+                new Location(){Id=2, Address="3456", ClassRoom="4", Picture="http://4.bp.blogspot.com/-aveBBBgPDI4/U0_66V4rA8I/AAAAAAAAAX8/YPv-yuPZoNk/s1600/javascript_logo_unofficial-300x300.png"}
             };
             model.Campers = new List<Camper>(){
                 new Camper(){ TroopId=1, Email="camper@mail", Gender='M', isActive=true, Name="John"},

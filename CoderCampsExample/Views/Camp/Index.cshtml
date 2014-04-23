@@ -5,7 +5,8 @@
 @foreach (var location in Model.Locations)
 {
     @location.Address <br/>
-    @location.Picture
+    <img src="@location.Picture" /> <br/>
+
 }
 @foreach (var Troop in Model.Troops)
 {
